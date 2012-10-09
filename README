@@ -1,0 +1,21 @@
+An old Perl script used to find and filter real estate deals from ss.lv and zip.lv.
+User is notified of matching results with a system tray notification.
+
+The idea was later pushed on in Garage48 Riga hackathon as a project named "Cribok".
+It had Android application that received latest matches through push notifications.
+Server side was modular. Data could be scraped from multiple sites and sent from
+multiple servers to the central server parsing, storing and doing all kinds of 
+magic with the data. Main server was written in RoR.
+
+The prototype was (and probably still is) working but I have no clue where the 
+server side code is right now. (I still have the Android application).
+If you are interested in this, write me, I could search for it and post it online.
+
+Still, this script still works and can be used.
+Check files to see what perl modules are needed.
+It probably should be updated not to use Curl and other modules but since we 
+worked on the Cribok project, it would make more sense finishing that one.
+
+Anyway, feel free to use this and remember it was made on Linux for Linux so don't
+be supprised if it doesn't work on Windows. :)
+
